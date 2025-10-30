@@ -1,13 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    height: 0;
     box-sizing: border-box;
+     
 }
 nav{
-    padding: 30px;
+    padding: 15px;
     /* display: flex; */
      
+}
+.logo{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 8px;
 }
 nav.first{
     display: flex;
@@ -22,31 +29,60 @@ nav.sec{
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    gap: 30px;
     margin-bottom: 10px;
-    /* display: flex;
-    justify-content: center; */
 }
 a.first{
+    margin-top: 15px;
     text-decoration: none;
     color: rgba(20, 19, 19, 0.623);
     text-align: left;
-    margin-left: 20px;
+    margin-left: 38px;
+    font-size: 22px;
 }
 a.sec{
-    font-size: 12px;
+    /* padding-top: 8px; */
+    font-size: 21px;
     color: #199ba6;
     text-decoration: none;
-    margin: 10px;
+    padding-left: 15px;
+    padding-bottom: 0;
+    margin-left: 10px;
+     
 }
-table{
-     border-left: 3px solid #1899a5;
-     margin-left: 50px;
-     font-size: 40px;
+.banner{
+    /* background-image: url(../living-room-d-1689150613-oIGOU.avif); */
+    width: 100%;
+    height: 600px;
+    margin-top: -5px;
+    /* margin-left: 55px;
+    margin-right: 50px; */
+    border-radius: 8px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 p.para1{
-    margin-top: 5px;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 55px;
     color: rgba(20, 19, 19, 0.623);
 }
+.main1{
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #41303e;
+}
+.main2{
+    width: 680px;
+    text-align: center;
+    word-wrap: break-word;
+    margin: auto;
+    color: #41303e;
+    font-size: 19px;
+    
+  
+}
+ 
