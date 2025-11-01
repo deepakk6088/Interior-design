@@ -58,7 +58,7 @@ a.sec{
     margin-top: -5px;
     /* margin-left: 55px;
     margin-right: 50px; */
-    border-radius: 8px;
+    border-radius: 15px;
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
@@ -87,12 +87,14 @@ p.para1{
 }
 div.main{
     background-color: #f7f6f7;
-    height: 500px;
+    height: 560px;
     width: 100%;
+    padding: 32px 0px;
 }
 .main3{
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 .main3>div>img{
@@ -108,4 +110,46 @@ div.main3>div{
     flex-direction: column;
 
 }
+.body>h2{
+color: #41303e;
+font-family: poppins;
+font-size: 35px;
+}
+.card{
+    padding: 32px 0px;
+    background-color: #f7f6f7;
+}
+.card>div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.card>div>div>img{
+    height: 80px;
+    width: 80px;
+    margin-left: 25px;
+}
+.card>div>div p{
+    font-size: 16px;
+    width: 143px;
+    height: 24px;
+    font-family: roboto;
+    color: #41303E;
+    text-align: center;
+    margin: 10px 10px 0px -5px;
+}
+.card>h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: poppins;
+    color: #41303e;
+}
+ .card>div>div{
+    padding: 24px;
+    height: 190px;
+    width: 193px;
+    background-color: white;
+    border-radius: 12px;
+ }
  
