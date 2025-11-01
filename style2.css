@@ -1,86 +1,249 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f6f7;
 }
-nav{
-    padding: 15px;
-    /* display: flex; */
-     
+nav {
+  padding: 15px;
+  /* display: flex; */
 }
-.logo{
-    height: 40px;
-    width: 100px;
-    background-color: white;
-    margin-left: 30px;
-    border-radius: 8px;
+.logo {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 8px;
 }
-nav.first{
-    display: flex;
-    /* position: relative;
+nav.first {
+  display: flex;
+  /* position: relative;
     left: 49px; */
-    border-bottom: 1px solid rgba(48, 47, 47, 0.154);
+  border-bottom: 1px solid rgba(48, 47, 47, 0.154);
 }
-a.first:hover{
-    color: #1899a5;
+a.first:hover {
+  color: #eb5960;
 }
-nav.sec{
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
+nav.sec {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: start;
+  gap: 27px;
+  margin-bottom: 10px;
 }
-a.first{
-    margin-top: 15px;
-    text-decoration: none;
-    color: rgba(20, 19, 19, 0.623);
-    text-align: left;
-    margin-left: 38px;
+a.first {
+  margin-top: 15px;
+  text-decoration: none;
+  color: rgba(20, 19, 19, 0.623);
+  text-align: left;
+  margin-left: 38px;
+  font-size: 20px;
 }
-a.sec{
-    /* padding-top: 15px; */
-    font-size: 12px;
-    color: #199ba6;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-bottom: 0;
-    margin-left: 10px;
-     
+a.sec:hover{
+    color: #eb5960;
 }
-table{
-     border-left: 3px solid #1899a5;
-     margin-left: 50px;
-     font-size: 40px;
-     margin-top: 0;
-     padding-top: 0;
+a.sec {
+  /* padding-top: 15px; */
+  font-size: 18px;
+  color: #282828;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-bottom: 0;
+  margin-left: 10px;
 }
-.banner{
-    width: 90%;
-    height: 490px;
-    margin: 50px;
-    border-radius: 8px;
+table {
+  border-left: 3px solid #eb5960;
+  margin-left: 50px;
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 0;
 }
-p.para1{
-    padding-top: 20px;
-    padding-left: 55px;
-    color: rgba(20, 19, 19, 0.623);
+th{
+    color: #282828;
 }
-.main1{
-    text-align: center;
-    margin-top: 17px;
-    margin-bottom: 10px;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #41303e;
-}
-.main2{
-    width: 590px;
-    text-align: center;
-    word-wrap: break-word;
-    margin: auto;
-    color: #41303e;
-    
+/* .banner {
+  width: 95%;
+  height: 550px;
+  margin: 30px;
+  border-radius: 8px;
+} */
+p.para1 {
+  padding-top: 20px;
+  padding-left: 55px;
+  color: rgba(20, 19, 19, 0.623);
+  font-size: 18px;
+  width: 890px;
+  margin-bottom: 16px;
   
+}
+.main1 {
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #41303e;
+}
+.main2 {
+  width: 590px;
+  text-align: center;
+  word-wrap: break-word;
+  margin: auto;
+  color: #41303e;
+}
+h2{
+    font-size: 30px;
+    height: 60px;
+    margin-bottom: -10px;
+}
+.container{
+    width: 100%;
+    /* max-width: 1261px; */
+   padding-left: 60px;
+   padding-right: 60px;
+}
+.kitchen{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.kitchen-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.kitchen-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.kitchen-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+  
+}
+.living-room{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.living-room-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.living-room-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.living-room-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+}
+.Bedroom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.Bedroom-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Bedroom-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.Bedroom-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+}
+.wardrobe{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.wardrobe-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.wardrobe-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.wardrobe-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+}
+.dining{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.dining-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.dining-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.dining-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+}
+ 
+ .office{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.office-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.office-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.office-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
+}
+.bathroom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.bathroom-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.bathroom-ideas>div>img{
+    width: 340px;
+    height: 225px;
+    border-radius: 10px;
+}
+.bathroom-ideas>div h3{
+    font-size: 18px;
+    width: 360px;
+    margin-top: 12px;
 }
