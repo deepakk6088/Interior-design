@@ -48,8 +48,8 @@ a.sec {
   padding-bottom: 0;
   margin-left: 10px;
 }
-a.sec:hover{
-    color: #eb5960;
+a.sec:hover {
+  color: #eb5960;
 }
 .banner {
   /* background-image: url(../living-room-d-1689150613-oIGOU.avif); */
@@ -146,33 +146,35 @@ div.main3 > div {
   background-color: white;
   border-radius: 12px;
 }
-.widget{
-    width: 1400px;
-    height: 414px;
-    padding: 32px;
+.widget {
+  width: 1400px;
+  height: 414px;
+  padding: 32px;
 }
-.widget h2{
-    font-size: 35px;
-    font-family: poppins;
-    color: #41303e;
-    text-align: center;
-
+.widget h2 {
+  font-size: 35px;
+  font-family: poppins;
+  color: #41303e;
+  text-align: center;
 }
-.widget h2>span{
-    color: #eb5960;
+.widget h2 > span {
+  color: #eb5960;
 }
-.sub-banner{
-    
-    width: 100%;
-    height: auto;
-    background-color: #f7f6f7;
-    padding: 32px;
-
+.widget p {
+  font-size: 18px;
+  font-family: poppins;
+  color: #41303e;
+  text-align: center;
 }
-.sub-banner>img{
-width: 1400px;
-height: auto;
-border-radius: 1rem;
-max-width: 100%;
- 
+.sub-banner {
+  width: 100%;
+  height: auto;
+  background-color: #f7f6f7;
+  padding: 32px;
+}
+.sub-banner > img {
+  width: 1400px;
+  height: auto;
+  border-radius: 1rem;
+  max-width: 100%;
 }
