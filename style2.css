@@ -15,6 +15,9 @@ nav {
   margin-left: 30px;
   border-radius: 8px;
 }
+#design{
+    color: #eb5960;
+}
 nav.first {
   display: flex;
   /* position: relative;
@@ -116,7 +119,7 @@ h2{
 }
 .kitchen-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
     margin-top: 0px;
 }
@@ -138,7 +141,7 @@ h2{
 }
 .living-room-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .living-room-ideas>div h3{
@@ -158,7 +161,7 @@ h2{
 }
 .Bedroom-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .Bedroom-ideas>div h3{
@@ -178,7 +181,7 @@ h2{
 }
 .wardrobe-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .wardrobe-ideas>div h3{
@@ -198,7 +201,7 @@ h2{
 }
 .dining-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .dining-ideas>div h3{
@@ -219,7 +222,7 @@ h2{
 }
 .office-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .office-ideas>div h3{
@@ -239,7 +242,7 @@ h2{
 }
 .bathroom-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .bathroom-ideas>div h3{
@@ -259,7 +262,7 @@ h2{
 }
 .staircase-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .staircase-ideas>div h3{
@@ -279,7 +282,7 @@ h2{
 }
 .home-bar-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .home-bar-ideas>div h3{
@@ -299,10 +302,30 @@ h2{
 }
 .wall-decor-ideas>div>img{
     width: 340px;
-    height: 225px;
+    height: 305px;
     border-radius: 10px;
 }
 .wall-decor-ideas>div h3{
+    font-size: 18px;
+    width: 330px;
+    margin-top: 12px;
+}
+.balcony{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.balcony-ideas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.balcony-ideas>div>img{
+    width: 340px;
+    height: 305px;
+    border-radius: 10px;
+}
+.balcony-ideas>div h3{
     font-size: 18px;
     width: 330px;
     margin-top: 12px;
