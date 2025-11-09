@@ -15,8 +15,8 @@ nav {
   margin-left: 30px;
   border-radius: 8px;
 }
-#design{
-    color: #eb5960;
+#design {
+  color: #eb5960;
 }
 nav.first {
   display: flex;
@@ -43,8 +43,8 @@ a.first {
   margin-left: 38px;
   font-size: 20px;
 }
-a.sec:hover{
-    color: #eb5960;
+a.sec:hover {
+  color: #eb5960;
 }
 a.sec {
   /* padding-top: 15px; */
@@ -62,8 +62,8 @@ table {
   margin-top: 0;
   padding-top: 0;
 }
-th{
-    color: #282828;
+th {
+  color: #282828;
 }
 /* .banner {
   width: 95%;
@@ -95,238 +95,277 @@ p.para1 {
   margin: auto;
   color: #41303e;
 }
-h2{
-    font-size: 30px;
-    height: 60px;
-    margin-bottom: -10px;
+h2 {
+  font-size: 30px;
+  height: 60px;
+  margin-bottom: -10px;
 }
-.container{
-    width: 100%;
-    /* max-width: 1261px; */
-   padding-left: 60px;
-   padding-right: 60px;
+.container {
+  width: 100%;
+  /* max-width: 1261px; */
+  padding-left: 60px;
+  padding-right: 60px;
 }
-.kitchen{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.kitchen {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.kitchen-ideas{
-    display: flex;
-    justify-content: space-between;
-   
-    
+.kitchen-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.kitchen-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
-    margin-top: 0px;
+.kitchen-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
+  margin-top: 0px;
 }
-.kitchen-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
-  
+.kitchen-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.living-room{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.living-room {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.living-room-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.living-room-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.living-room-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.living-room-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.living-room-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.living-room-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.Bedroom{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.Bedroom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.Bedroom-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.Bedroom-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.Bedroom-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.Bedroom-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.Bedroom-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.Bedroom-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.wardrobe{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.wardrobe {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.wardrobe-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.wardrobe-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.wardrobe-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.wardrobe-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.wardrobe-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.wardrobe-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.dining{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.dining {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.dining-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.dining-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.dining-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.dining-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.dining-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.dining-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
- 
- .office{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+
+.office {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.office-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.office-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.office-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.office-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.office-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.office-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.bathroom{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.bathroom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.bathroom-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.bathroom-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.bathroom-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.bathroom-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.bathroom-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.bathroom-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.staircase{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.staircase {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.staircase-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.staircase-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.staircase-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.staircase-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.staircase-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.staircase-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.home-bar{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.home-bar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.home-bar-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.home-bar-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.home-bar-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.home-bar-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.home-bar-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.home-bar-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.wall-decor{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.wall-decor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.wall-decor-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.wall-decor-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.wall-decor-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.wall-decor-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.wall-decor-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.wall-decor-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
 }
-.balcony{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+.balcony {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-.balcony-ideas{
-    display: flex;
-    justify-content: space-between;
-   
+.balcony-ideas {
+  display: flex;
+  justify-content: space-between;
 }
-.balcony-ideas>div>img{
-    width: 340px;
-    height: 305px;
-    border-radius: 10px;
+.balcony-ideas > div > img {
+  width: 340px;
+  height: 305px;
+  border-radius: 10px;
 }
-.balcony-ideas>div h3{
-    font-size: 18px;
-    width: 330px;
-    margin-top: 12px;
+.balcony-ideas > div h3 {
+  font-size: 18px;
+  width: 330px;
+  margin-top: 12px;
+}
+.final-banner {
+  width: 100%;
+  height: 300px;
+  background-color: #f7f6f7;
+  position: relative;
+}
+.final-banner h2 {
+  font-family: poppins;
+  color: #41303e;
+  font-size: 48px;
+  position: absolute;
+  top: 180px;
+  left: 260px;
+  background-color: white;
+}
+.final-banner img {
+  width: 1510px;
+  height: auto;
+
+  /* width: 100%; */
+  margin-top: 60px;
+}
+.final-banner h2 > span {
+  color: #eb5960;
+  background-color: white;
+}
+
+.bottom {
+  height: 450px;
+  background-color: #41303e;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.bottom div h6 {
+  background-color: #41303e;
+  color: white;
+  font-size: 21px;
+}
+.bottom div p {
+  background-color: #41303e;
+  color: white;
+  font-size: 18px;
+}
+.bottom1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #41303e;
+  gap: 15px;
 }

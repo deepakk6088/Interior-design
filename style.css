@@ -61,25 +61,20 @@ a.sec:hover {
   /* border-radius: 15px; */
   /* background-repeat: no-repeat; */
   background-size: cover;
-    position: relative;
-  
-   
+  position: relative;
 }
-.banner>img{
-
+.banner > img {
   filter: brightness(0.65);
 }
-.banner h2{
+.banner h2 {
   font-family: poppins;
   color: white;
   font-size: 70px;
   position: absolute;
   bottom: 120px;
   left: 320px;
-
- 
 }
-.banner p{
+.banner p {
   position: absolute;
   bottom: 85px;
   left: 720px;
@@ -90,7 +85,7 @@ a.sec:hover {
 p.para1 {
   padding-top: 20px;
   padding-left: 55px;
-   padding-right: 55px;
+  padding-right: 55px;
   color: rgba(20, 19, 19, 0.623);
   font-size: 22px;
 }
@@ -119,7 +114,6 @@ div.main {
 .main3 {
   display: flex;
   justify-content: space-evenly;
-  
 }
 .main3 div > img {
   height: 225.12px;
@@ -163,71 +157,61 @@ div.sub-main3 {
 .body {
   padding: 64px 32px;
   height: 1014px;
-  max-width:1400px;
+  max-width: 1400px;
   width: 100%;
   margin-left: 10px;
   margin-left: 50px;
-   
-   
 }
 #container {
   display: grid;
-  grid-template-columns:  1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
   height: 800px;
-  max-width:1400px;
+  max-width: 1400px;
   width: 100%;
   justify-content: center;
- }
-#item1{
+}
+#item1 {
   grid-column: 1/3;
   grid-row: 1/2;
 }
-#item5{
+#item5 {
   grid-column: 2/4;
   grid-row: 2/3;
 }
-#item1>img{
-  
-  width: 100%;
-  height: 394px;
-  border-radius: 12px;
-  
-}
-#item2>img{
-  
+#item1 > img {
   width: 100%;
   height: 394px;
   border-radius: 12px;
 }
-#item3>img{
-  
+#item2 > img {
   width: 100%;
   height: 394px;
-   border-radius: 12px;
+  border-radius: 12px;
 }
-#item4>img{
-  
+#item3 > img {
   width: 100%;
   height: 394px;
-   border-radius: 12px;
+  border-radius: 12px;
 }
-#item5>img{
-  
+#item4 > img {
   width: 100%;
   height: 394px;
-   border-radius: 12px;
+  border-radius: 12px;
 }
-#item6>img{
- 
+#item5 > img {
   width: 100%;
   height: 394px;
-   border-radius: 12px;
+  border-radius: 12px;
+}
+#item6 > img {
+  width: 100%;
+  height: 394px;
+  border-radius: 12px;
 }
 
- 
 .sub-banner {
   width: 100%;
   height: auto;
@@ -276,16 +260,103 @@ div.sub-main3 {
   background-color: white;
   border-radius: 12px;
 }
+.login{
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  height: 670px;
+  width: 100%;
+}
+.login>div>img{
+  width: 650px;
+  height: 670px;
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+}
+#class{
+  background-color: #5e455a;
+   border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+#name{
+  height: auto;
+  width: 310px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+}
+#email{
+  height: auto;
+  width: 310px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+}
+#num{
+  height: auto;
+  width: 310px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+}
+#select{
+  height: auto;
+  width: 310px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+  /* margin-top: 16px; */
+}
+#submit{
+  height: auto;
+  width: 310px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+  margin-top: 12px;
+  border-radius: 30px;
+  background-color: #eb5960;
+  color: white;
+}
 
- 
-.final-banner{
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 55px;
+  margin-top: 16px;
+  margin-right: 25px;
+}
+form h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: poppins;
+  width: 310px;
+}
+form h5{
+font-size: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: roboto;
+  width: 320px;
+}
+form p{
+  margin-top: 20px;
+  width: 310px;
+  color: white;
+  font-family: roboto;
+}
+form p>span{
+  color: #eb5960;
+}
+.final-banner {
   width: 100%;
   height: 300px;
   background-color: #f7f6f7;
   position: relative;
-  
 }
-.final-banner h2{
+.final-banner h2 {
   font-family: poppins;
   color: #41303e;
   font-size: 48px;
@@ -293,13 +364,36 @@ div.sub-main3 {
   top: 180px;
   left: 260px;
 }
-.final-banner img{
+.final-banner img {
   width: 1510px;
   height: auto;
-  border-radius: 1rem;
+
   /* width: 100%; */
   margin-top: 60px;
 }
-.final-banner h2>span{
+.final-banner h2 > span {
   color: #eb5960;
+}
+
+.footer {
+  height: 450px;
+  background-color: #41303e;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.footer div h6 {
+  color: white;
+  font-size: 21px;
+}
+.footer div p {
+  color: white;
+  font-size: 18px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
